@@ -686,3 +686,179 @@ main section:first-child a:last-of-type:hover {
     background: var(--soft-lavender);
     color: var(--dark-amethyst);
 }
+/* PROJECT FOX - PROCESS SECTION */
+
+.process {
+    display: block !important;
+    max-width: none;
+    background: var(--white);
+}
+
+.process .section-intro {
+    max-width: var(--max-width);
+    margin: 0 auto 36px;
+}
+
+.process-grid {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+}
+
+.process-card {
+    margin-top: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.process-card span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    margin-bottom: 18px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--lavender-purple), var(--dark-amethyst));
+    color: var(--white);
+    font-weight: 800;
+    box-shadow: 0 12px 28px rgba(166, 85, 204, 0.28);
+}
+
+.process-note {
+    max-width: var(--max-width);
+    margin: 36px auto 0;
+    padding: 32px;
+    border-radius: var(--radius);
+    background: var(--soft-lavender);
+    border: 1px solid var(--light-border);
+}
+
+.process-note h3 {
+    margin-bottom: 10px;
+}
+
+.process-note p {
+    max-width: 860px;
+    color: var(--text-soft);
+}
+
+@media (max-width: 980px) {
+    .process-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 640px) {
+    .process-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .process-note {
+        padding: 24px;
+    }
+}
+/* PROJECT FOX - GUIDES SECTION */
+
+.guides {
+    display: block !important;
+    max-width: none;
+    background: var(--soft-bg);
+}
+
+.guides .section-intro {
+    max-width: var(--max-width);
+    margin: 0 auto 36px;
+}
+
+.guide-grid {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+}
+
+.guide-card {
+    margin-top: 0;
+    background: var(--white);
+}
+
+.guide-card span {
+    display: inline-block;
+    margin-bottom: 16px;
+    padding: 8px 12px;
+    background: var(--soft-lavender);
+    color: var(--dark-amethyst);
+    border-radius: 999px;
+    font-size: 0.78rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+/* PROJECT FOX - FINAL CTA */
+
+.final-cta {
+    display: block !important;
+    max-width: none;
+    text-align: center;
+    background: linear-gradient(135deg, var(--dark-amethyst), var(--lavender-purple));
+    color: var(--white);
+}
+
+.final-cta .section-label,
+.final-cta h2,
+.final-cta p {
+    color: var(--white);
+}
+
+.final-cta p {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-actions {
+    margin-top: 24px;
+}
+
+.cta-actions a {
+    display: inline-block;
+    margin: 12px 8px 0;
+    padding: 14px 22px;
+    border-radius: 999px;
+    font-weight: 800;
+}
+
+.cta-actions a:first-child {
+    background: var(--white);
+    color: var(--dark-amethyst);
+    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.18);
+}
+
+.cta-actions a:last-child {
+    border: 2px solid rgba(255, 255, 255, 0.55);
+    color: var(--white);
+}
+
+@media (max-width: 980px) {
+    .guide-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 640px) {
+    .guide-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cta-actions a {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
