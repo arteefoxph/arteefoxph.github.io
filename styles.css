@@ -639,53 +639,7 @@ main section:first-child a:last-of-type:hover {
         grid-template-columns: 1fr;
     }
 }
-/* PROJECT FOX - ALTERNATING FEATURED PROJECT CARDS */
 
-.project-grid .project-card:nth-child(1),
-.project-grid .project-card:nth-child(3) {
-    background: linear-gradient(135deg, var(--dark-amethyst), var(--lavender-purple));
-    color: var(--white);
-    border: none;
-}
-
-.project-grid .project-card:nth-child(1) h3,
-.project-grid .project-card:nth-child(1) p,
-.project-grid .project-card:nth-child(1) a,
-.project-grid .project-card:nth-child(3) h3,
-.project-grid .project-card:nth-child(3) p,
-.project-grid .project-card:nth-child(3) a {
-    color: var(--white);
-}
-
-.project-grid .project-card:nth-child(1) .project-category,
-.project-grid .project-card:nth-child(3) .project-category {
-    background: rgba(255, 255, 255, 0.18);
-    color: var(--white);
-}
-
-/* Reset the middle card back to light */
-.project-grid .project-card:nth-child(2) {
-    background: var(--white);
-    color: var(--text-main);
-    border: 1px solid var(--light-border);
-}
-
-.project-grid .project-card:nth-child(2) h3 {
-    color: var(--dark-amethyst);
-}
-
-.project-grid .project-card:nth-child(2) p {
-    color: var(--text-soft);
-}
-
-.project-grid .project-card:nth-child(2) a {
-    color: var(--lavender-purple);
-}
-
-.project-grid .project-card:nth-child(2) .project-category {
-    background: var(--soft-lavender);
-    color: var(--dark-amethyst);
-}
 /* PROJECT FOX - PROCESS SECTION */
 
 .process {
