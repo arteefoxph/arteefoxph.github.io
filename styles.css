@@ -1023,3 +1023,93 @@ main section:first-child a:last-of-type:hover {
     }
 
 }
+/* ==========================================
+   SCHOOL FAQ
+========================================== */
+
+.school-faq {
+    background: white;
+}
+
+.faq-list {
+    max-width: var(--max-width);
+    margin: 40px auto 0;
+}
+
+.faq-list article {
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+.faq-list h3 {
+    color: #24034D;
+    margin-bottom: 10px;
+}
+/* SCHOOL FINAL CTA */
+
+.school-final-cta {
+    max-width: none;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(135deg, #24034D 0%, #3A086F 55%, #A655CC 100%);
+    color: #FFFFFF;
+}
+
+.school-final-cta .section-label,
+.school-final-cta h2,
+.school-final-cta p {
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.school-final-cta p {
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.school-final-cta a {
+    display: inline-block;
+    margin-top: 24px;
+    padding: 14px 24px;
+    border-radius: 999px;
+    background: #FFFFFF;
+    color: #24034D;
+    font-weight: 800;
+    box-shadow: 0 16px 36px rgba(36, 3, 77, 0.35);
+}
+/* SCHOOL FINAL CTA - FINAL FIX */
+
+section.school-final-cta {
+    max-width: none;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(135deg, #24034D 0%, #3A086F 55%, #A655CC 100%);
+    color: #FFFFFF;
+}
+
+section.school-final-cta .section-label,
+section.school-final-cta h2,
+section.school-final-cta p {
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+section.school-final-cta p {
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section.school-final-cta a {
+    display: inline-block;
+    margin-top: 24px;
+    padding: 14px 24px;
+    border-radius: 999px;
+    background: #FFFFFF;
+    color: #24034D;
+    font-weight: 800;
+    box-shadow: 0 16px 36px rgba(36, 3, 77, 0.35);
+}
