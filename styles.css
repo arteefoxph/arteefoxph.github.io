@@ -1141,3 +1141,30 @@ section.school-final-cta a {
 .school-project-content a:hover {
     color: var(--dark-amethyst);
 }
+/* HOMEPAGE HERO BACKGROUND TOUCH */
+
+.hero {
+    position: relative;
+    overflow: hidden;
+    background:
+        radial-gradient(circle at 20% 20%, rgba(166, 85, 204, 0.16), transparent 32%),
+        radial-gradient(circle at 80% 30%, rgba(36, 3, 77, 0.10), transparent 28%),
+        linear-gradient(180deg, #FFFFFF 0%, #FBF7FD 100%);
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    right: -80px;
+    bottom: 80px;
+    background: rgba(166, 85, 204, 0.10);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.hero > * {
+    position: relative;
+    z-index: 1;
+}
