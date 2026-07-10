@@ -1231,3 +1231,26 @@ header {
         font-weight: 800;
     }
 }
+
+/* KEEP MOBILE LOGO AND MENU ON ONE ROW */
+
+@media (max-width: 768px) {
+    body > header {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    body > header .logo {
+        width: auto;
+        margin: 0 auto 0 0;
+        text-align: left;
+    }
+
+    body > header .menu-toggle {
+        flex-shrink: 0;
+        margin: 0;
+    }
+}
